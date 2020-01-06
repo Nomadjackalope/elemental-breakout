@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HexExplodeColorAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: bf9f94a6446b6f941a207b4157d8af7d, type: 3}
+    totalSpriteSurfaceArea: 983040
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 162cd1e0da44f174cb26cccb29d8e91d, type: 3}
+  - {fileID: 21300000, guid: 85daa1210801de64fb498c6c4b7edbfc, type: 3}
+  - {fileID: 21300000, guid: e8fca0224b931b54e96845b3f3767ed2, type: 3}
+  - {fileID: 21300000, guid: a01511635e12b1f4c88021b0a2a605ec, type: 3}
+  - {fileID: 21300000, guid: 1cef5e93b41329c4c94b6fdbd00c5e77, type: 3}
+  - {fileID: 21300000, guid: 1908e4b578647964482d35342195d992, type: 3}
+  - {fileID: 21300000, guid: d755261641402da47a81ed425ad8ca1f, type: 3}
+  - {fileID: 21300000, guid: 1df1200849d793f469dd62505631f68b, type: 3}
+  - {fileID: 21300000, guid: 526854a84af6b7746981bfdc5bfc1722, type: 3}
+  - {fileID: 21300000, guid: 41465d1a95e4a4a48a6924261591b595, type: 3}
+  - {fileID: 21300000, guid: b480c06a43195264aafc52b566aa3c9e, type: 3}
+  - {fileID: 21300000, guid: d8d020cbb28e65441866a97fd4307fed, type: 3}
+  - {fileID: 21300000, guid: 6baca81c97983df4298c99a497385953, type: 3}
+  - {fileID: 21300000, guid: bc671baeac08ac64a86fad2adfc255c9, type: 3}
+  - {fileID: 21300000, guid: ac0fb8eead6528644bfc8e988afddc9c, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 0029
+  - 0003
+  - 0025
+  - 0015
+  - 0009
+  - 0027
+  - 0013
+  - 0023
+  - 0007
+  - 0005
+  - 0011
+  - 0021
+  - 0019
+  - 0017
+  - 0001
+  m_Tag: HexExplodeColorAtlas
+  m_IsVariant: 0

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a995dd69b80fa4a08bd57ce6ad8805da, type: 3}
+  m_Name: Earth
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: abf67e8512e758644967795db19e9cf6, type: 3}
+  hexType: 0
+  spriteHealth2: {fileID: 0}
+  spriteHealth3: {fileID: 0}
+  spriteHealth4: {fileID: 0}
+  spriteHealth5: {fileID: 0}
+  pointValue: -1
+  onBreak: {fileID: 8300000, guid: c4ab1889173f1384b8f28203fd3772bf, type: 3}

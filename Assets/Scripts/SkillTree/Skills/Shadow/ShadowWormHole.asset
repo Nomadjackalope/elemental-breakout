@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 351aab3bb01a0624480ccbd20c858208, type: 3}
+  m_Name: ShadowWormHole
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 882d6335f56c03d428c9daf48fb77cd6, type: 3}
+  skillName: Worm hole
+  description: When the ball kills an element block, it will warp to another element
+    block.
+  powerUp: 40
+  biome: 5
+  Row: 2
+  isAnActive: 0
+  whileCoolDown: 1
+  whileActive: 2

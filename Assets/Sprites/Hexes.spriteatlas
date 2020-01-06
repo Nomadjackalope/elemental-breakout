@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hexes
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: 9ce437f4519170542919dd8f32625959, type: 3}
+    - {fileID: 21300000, guid: 8f74df75a4c4ba94e9a1bb5f67cbbc66, type: 3}
+    - {fileID: 21300000, guid: 5e819e63e7f0f8d43a707509d55ea782, type: 3}
+    - {fileID: 21300000, guid: cb0a1c8d511a406478d9901a6ace183f, type: 3}
+    - {fileID: 21300000, guid: 5b063fbc03a6e304eaf2be201163d017, type: 3}
+    - {fileID: 2800000, guid: a08821899aaee6d4a9fd2f319e71db97, type: 3}
+    - {fileID: 2800000, guid: 8b2283417ddde9140bffbabd59a36311, type: 3}
+    - {fileID: 2800000, guid: 8d5cd80ec7aa5954296d8505892ce709, type: 3}
+    - {fileID: 2800000, guid: f736c18df03d9c94d9f4497ff1f60367, type: 3}
+    totalSpriteSurfaceArea: 589824
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 8b2283417ddde9140bffbabd59a36311, type: 3}
+  - {fileID: 21300000, guid: 5e819e63e7f0f8d43a707509d55ea782, type: 3}
+  - {fileID: 21300000, guid: 9ce437f4519170542919dd8f32625959, type: 3}
+  - {fileID: 21300000, guid: 8f74df75a4c4ba94e9a1bb5f67cbbc66, type: 3}
+  - {fileID: 21300000, guid: a08821899aaee6d4a9fd2f319e71db97, type: 3}
+  - {fileID: 21300000, guid: 5b063fbc03a6e304eaf2be201163d017, type: 3}
+  - {fileID: 21300000, guid: f736c18df03d9c94d9f4497ff1f60367, type: 3}
+  - {fileID: 21300000, guid: cb0a1c8d511a406478d9901a6ace183f, type: 3}
+  - {fileID: 21300000, guid: 8d5cd80ec7aa5954296d8505892ce709, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - HexShadowSmall
+  - BasicHexHealth2_LargeCells
+  - BasicHexHealth0_LargeCells
+  - BasicHexHealth1_LargeCells
+  - Health2_LargeCells
+  - Health1_LargeCells
+  - hexCrystalPass
+  - Health0_LargeCells
+  - smoothCrystal
+  m_Tag: Hexes
+  m_IsVariant: 0

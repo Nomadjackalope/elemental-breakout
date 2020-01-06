@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 351aab3bb01a0624480ccbd20c858208, type: 3}
+  m_Name: EarthFallOutBarrier
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 5a34a0fc628961942a63f86df04d88b4, type: 3}
+  skillName: Fall Out Barrier
+  description: Start the level with a barrier that stops the ball from falling out.
+  powerUp: 12
+  biome: 1
+  Row: 2
+  isAnActive: 0
+  whileCoolDown: 2
+  whileActive: 2

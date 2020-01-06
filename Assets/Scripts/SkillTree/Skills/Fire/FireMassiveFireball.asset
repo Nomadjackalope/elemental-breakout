@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 351aab3bb01a0624480ccbd20c858208, type: 3}
+  m_Name: FireMassiveFireball
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: b9e6ec623d8e96949b776249676645e7, type: 3}
+  skillName: Massive Fireball
+  description: A giant fireball that will plow through all blocks above it.
+  powerUp: 8
+  biome: 0
+  Row: 3
+  isAnActive: 1
+  whileCoolDown: 0
+  whileActive: 2

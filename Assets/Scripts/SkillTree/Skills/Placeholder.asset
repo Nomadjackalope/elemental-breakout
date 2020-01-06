@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 351aab3bb01a0624480ccbd20c858208, type: 3}
+  m_Name: Placeholder
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: a03857c24c66b3445a2ba9de1a7e5472, type: 3}
+  skillName: PLACEHOLDER
+  description: Placeholder is used to hold the place of a potential power-up
+  powerUp: 54
+  biome: 6
+  Row: 0
+  isAnActive: 0
+  whileCoolDown: 2
+  whileActive: 2

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2e89ed20544e294e80e99550067fcf0, type: 3}
+  m_Name: Biome Audio List
+  m_EditorClassIdentifier: 
+  fireBiomeAudio: {fileID: 11400000, guid: b8c29377143748b44b7c920436cc5187, type: 2}
+  earthBiomeAudio: {fileID: 11400000, guid: ef925a66c732f6141bbca4b1002dc75a, type: 2}
+  waterBiomeAudio: {fileID: 11400000, guid: 288682688b53c674aa312460e225bfef, type: 2}
+  growthBiomeAudio: {fileID: 11400000, guid: 394d3f4d230086c4299c74c38416a183, type: 2}
+  shadowBiomeAudio: {fileID: 11400000, guid: 1e3f9e64d073d1a49a4c3563557f0e1d, type: 2}
+  poisonBiomeAudio: {fileID: 11400000, guid: f34bf1f539925c14d923d25ad7d5eb6a, type: 2}
+  bossAudio: {fileID: 11400000, guid: 084a0e26146c77143a5e9119ab127816, type: 2}
