@@ -64,9 +64,18 @@ public class Hex : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-       GameManage.instance.HexAutoEndEvent.AddListener(beginAutoDeath);
-       GameManage.instance.GameFailedEvent.AddListener(stopAutoDeath);
+       
 	}
+
+    void OnEnable() {
+        GameManage.instance.HexAutoEndEvent.AddListener(beginAutoDeath);
+        GameManage.instance.GameFailedEvent.AddListener(stopAutoDeath);
+    }
+
+    void OnDisable() {
+        GameManage.instance.HexAutoEndEvent.RemoveListener(beginAutoDeath);
+        GameManage.instance.GameFailedEvent.RemoveListener(stopAutoDeath);
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -284,7 +293,7 @@ public class Hex : MonoBehaviour {
             doDrop();
             givePoints();
 
-            gameObject.SetActive(false);//Destroy(gameObject);
+            Destroy(gameObject);//gameobject set active false
     }
 
     // Spawns animation if the hex is a biome

@@ -37,6 +37,8 @@ public class Hints : MonoBehaviour {
             return "Once you have less than 3 blocks, you'll have 10 seconds to gain more points. A countdown will start when you have 5 seconds left.";
             case HintIds.Coins:
             return "If you don't have enough essence, trade your coins for essence in the shop on the main menu.";
+            case HintIds.Random:
+            return "You can now play in the wilderness where there are randomly generated maps.";
 
             default:
             return "NO HINT AVAILABLE FOR THIS ID";
@@ -101,5 +103,6 @@ public enum HintIds
         Growth,
         AutoEnd,
         Coins,
-        Skills
+        Skills,
+        Random
     }

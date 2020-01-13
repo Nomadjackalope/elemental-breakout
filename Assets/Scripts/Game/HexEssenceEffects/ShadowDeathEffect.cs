@@ -4,9 +4,14 @@ using UnityEngine;
 
 public class ShadowDeathEffect : HexDeathEffect
 {
+    private float seconds;
+
+    public void Start() {
+        Invoke("shadowDeath", seconds);
+    }
 
     public void showShadowAfterTime(float seconds) {
-        Invoke("shadowDeath", seconds);
+        this.seconds = seconds;
     }
 
     void shadowDeath() {

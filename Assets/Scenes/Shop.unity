@@ -1118,8 +1118,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: f4e915666a3633040a55351c39f3a8a7, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: d7e1f330544c945fbb3c85d2331f8b7f, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1421,6 +1421,9 @@ MonoBehaviour:
   EssenceCountPrefab: {fileID: 1270408153847768, guid: 48a4f9f81971ae441aae4746c16b4dcc,
     type: 3}
   icons: {fileID: 11400000, guid: fb089e6bc03d8be4584cd2b059a11f92, type: 2}
+  paddleListContent: {fileID: 1155494172}
+  paddleButtonPrefab: {fileID: 1985277842241628, guid: eee2271e40322904280a29f9f436508d,
+    type: 3}
   randAdButton: {fileID: 1134749733}
   placementId: randomessence
 --- !u!4 &842576080

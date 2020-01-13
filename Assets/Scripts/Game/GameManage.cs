@@ -5,9 +5,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
 using UnityEngine.Tilemaps;
+// using UnityEngine.Advertisements;
 using DG.Tweening;
 
-public class GameManage : MonoBehaviour {
+public class GameManage : MonoBehaviour { //, IUnityAdsListener {
 
 	public static GameManage instance;
 
@@ -380,6 +381,10 @@ public class GameManage : MonoBehaviour {
 		
 		Elementalist.instance.sayEasyHappyIfAvailable(Hints.getHintIdFromBiome(level.biomeType));
 
+		if(levelData.levelId == -1) {
+			Elementalist.instance.sayEasyHappyIfAvailable(HintIds.Random);
+		}
+
 		// Set all texts
 		if(EssenceText != null) 
 			EssenceText.text = "Essence: " + essenceCollectedCount;
@@ -427,6 +432,8 @@ public class GameManage : MonoBehaviour {
 				i++;
 			}
 		}
+
+		// Advertisement.AddListener(this);
 
 		StartCoroutine(showDragTip());
 	}
@@ -699,19 +706,24 @@ public class GameManage : MonoBehaviour {
 		// Girl asks how much essence you can give her
 	}
 
-    public void ShowAd()
-    {
-		adLaunch = true;
-		lives = 3;
+	//Advertisement
 
-		LosePanel.SetActive(false);
-		usedRewardedAd = true;
+	// public string placementId = "continuelevel";
 
-		goToPrevTimeScale();
 
-		if(LivesText != null)
-			StartCoroutine(setInitLives(LivesText, lives));
-    }
+    // public void ShowAd()
+    // {
+	// 	adLaunch = true;
+	// 	if (Advertisement.IsReady(placementId))
+	// 	{
+	// 		//var options = new ShowOptions { resultCallback = HandleShowResult };
+	// 		Advertisement.Show(placementId);//, options);
+	// 	}
+    // }
+
+    // private void HandleShowResult(ShowResult result) {
+    	
+    // }
 
     private IEnumerator endGame(bool win) {
 		gameEnding = true;
@@ -2375,6 +2387,53 @@ public class GameManage : MonoBehaviour {
             thisEvent.Invoke(powerup, state, progress);
         }
     }
+
+    // public void OnUnityAdsReady(string placementId)
+    // {
+        
+    // }
+
+    // public void OnUnityAdsDidError(string message)
+    // {
+    // }
+
+    // public void OnUnityAdsDidStart(string placementId)
+    // {
+    // }
+
+    // public void OnUnityAdsDidFinish(string placementId, ShowResult result)
+    // {
+
+	// 	if(this.placementId != placementId) {
+	// 		return;
+	// 	}
+
+    //     switch (result)
+    // 	{
+    // 		case ShowResult.Finished:
+    // 		Debug.Log("The ad was successfully shown.");
+
+    // 		lives = 3;
+
+    // 		LosePanel.SetActive(false);
+    // 		usedRewardedAd = true;
+
+	// 		Resume();
+
+	// 		if(LivesText != null)
+	// 			StartCoroutine(setInitLives(LivesText, lives));
+
+
+    // 		break;
+    // 		case ShowResult.Skipped:
+    // 		Debug.Log("The ad was skipped before reaching the end.");
+    // 		rewardedButton.SetActive(false);
+    // 		break;
+    // 		case ShowResult.Failed:
+    // 		Debug.LogError("The ad failed to be shown.");
+    // 		break;
+    // 	}
+    // }
 
     [System.Serializable]
 	public class PowerUpEvent : UnityEvent<PowerUps, PowerUpState, float> {}
