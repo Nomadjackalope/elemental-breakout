@@ -1,6 +1,6 @@
 # Elemental Breakout
 
-![screenshot](https://raw.githubusercontent.com/Nomadjackalope/eatsleeppoop/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/Nomadjackalope/elemental-breakout/master/FinalTitle.jpg)
 
 A brick breaker game with RPG elements for iOS and Android
 
